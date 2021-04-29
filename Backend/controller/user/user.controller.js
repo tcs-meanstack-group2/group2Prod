@@ -34,7 +34,7 @@ let editProfile = (req,res)=> {
     }}, (err, result)=> {
         if(!err){
             if(result.nModified > 0){
-                    res.send("Password updated succesfully")
+                    res.send("Profile updated succesfully")
             }else {
                     res.send("User ID or Password is incorrect");
             }
